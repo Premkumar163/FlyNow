@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    padding-left: 30%;
+    padding-top: 10%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+  height: 100%;
+  width: 100%;
+  
+  background-image: url('https://media.cntraveler.com/photos/5bd21d6b90ea376266cc61fb/16:9/w_2560%2Cc_limit/CNT_Intel_Jetblue_T.M.%2520Detwiler_102418.jpg');
+  background-image: no-repeat;
+} 
+
+
+#singup{
+         
+    color: rgb(89, 93, 96);
+    text-align: center;
+    font-family:  'Trebuchet MS';
+   font-size: 40px;
+}
+
+#container{
+
+    width: 100%;
+    display: grid;
+    grid-template-columns:  auto auto ;
+
+    /* border: 2px solid rgb(200, 193, 193); */
+
+}
+
+
+
+     
+    
+
+
+#forme{
+   display: grid;
+   
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+   background-image: url('');
+    box-shadow: 4px 5px 53px 10px gray;
+    border-radius: 5%;
+
+}
+
+
+#name{
+   align-content: center;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    /* color: #d62d2d; */
+    
+    font-weight: 600;
+    font-style: italic;
+    border: 1px solid transparent;
+    border-radius: 3.5px ;
+     box-shadow: 2px 2px 9px gray;
+    
+}
+
+#number{
+    
+    /* font-style: italic;
+    border: 1px solid rgb(145, 145, 184);
+    border-radius: 4%;
+     box-shadow: 2px 2px 9px gray; */
+
+     align-content: center;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    /* color: #131212; */
+    
+    font-weight: 600;
+    font-style: italic;
+    border: 1px solid transparent;
+    border-radius: 3.5px;
+     box-shadow: 2px 2px 9px gray;
+    
+}
+
+#email{
+    /* font-style: italic;
+    border: 1px solid rgb(145, 145, 184);
+    border-radius: 4%;
+     box-shadow: 2px 2px 9px gray; */
+
+
+
+     align-content: center;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    /* color: #131212; */
+    
+    font-weight: 600;
+    font-style: italic;
+    border: 1px solid transparent;
+    border-radius: 3.5px ;
+     box-shadow: 2px 2px 9px gray;
+    
+}
+
+#pass{
+    /* font-style: italic;
+    border: 1px solid rgb(145, 145, 184);
+    border-radius: 4%;
+     box-shadow: 2px 2px 9px gray; */
+
+
+
+     align-content: center;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    /* color: #131212; */
+    
+    font-weight: 600;
+    font-style: italic;
+    border: 1px solid transparent;
+    border-radius: 3.5px ;
+     box-shadow: 2px 2px 9px gray;
+    
+}
+#cpass{
+    /* font-style: italic;
+    border: 1px solid rgb(145, 145, 184);
+    border-radius: 4%;
+     box-shadow: 2px 2px 9px gray; */
+
+     align-content: center;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    /* color: #131212; */
+    
+    font-weight: 600;
+    font-style: italic;
+    border: 1px solid transparent;
+    border-radius: 3.5px ;
+     box-shadow: 2px 2px 9px gray;
+    
+}
+
+#login{
+    /* font-style: initial;
+   border: 3px solid rgb(88, 88, 91);
+   border-radius: 9% ;
+    background-color:rgb(187, 195, 195) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 9px gray; */
+
+
+    align-content: center;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    /* color: #131212; */
+    
+    font-weight: 600;
+    font-style: italic;
+    border: 1px solid transparent;
+    border-radius: 3.5px ;
+     box-shadow: 2px 2px 9px gray;
+     background-color: rgb(120, 187, 229);
+}
+

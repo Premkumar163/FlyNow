@@ -1,0 +1,99 @@
+body{
+    
+     
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/679/702/non_2x/stewardess-or-air-hostess-with-blue-uniform-and-carry-a-suitcase-at-airport-in-cartoon-illustration-vector.jpg');
+    background-image:no-repeat ;
+ }
+
+ #container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15%;
+    /* background-image: url('https://cdn.pixabay.com/photo/2015/06/24/02/12/the-blurred-819384_1280.jpg'); */
+
+    
+   
+ }
+
+ #forme{
+    display: grid;
+    
+     justify-content: center;
+     align-items: center;
+ 
+     text-decoration: none;
+    /* background-image: url('https://cdn.pixabay.com/photo/2015/06/24/02/12/the-blurred-819384_1280.jpg'); */
+    background-color: transparent;
+     box-shadow: 1px 5px 53px 10px gray;
+     border-radius: 5%;
+     height: 300px;
+     width: 300px;
+    
+ 
+ }
+
+ #forme:hover{
+
+    color: rgb(107, 106, 118);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+ }
+
+ #login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 20px; */
+
+   
+    
+ }
+
+
+  #submit:hover{
+    color: aqua;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ } 
+
+
+
+ #lbutton{
+    border: 1px solid white;
+    border-radius: 7px;
+    
+    background-color: transparent ;
+    font-size: 20px;
+    
+ }
+ 
+ #lbutton:hover{
+    color: aqua;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
+ #loginame{
+
+    border: 1px solid transparent;
+    border-width:3px ;
+    
+    border-radius: 6%;
+    background-color:transparent ;
+
+ }
+
+ /* #loginpass{
+
+    border: 10px solid transparent;
+    border-radius: 6%;
+    background-color:transparent ;
+
+ }
+
+  */
