@@ -718,7 +718,7 @@ width: 100%;
 }
 
 #container-box5{
-  /* width: 100%; */
+  
   display: grid;
   grid-template-columns:  auto  auto;
   gap: 60px;
