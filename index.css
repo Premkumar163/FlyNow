@@ -383,6 +383,26 @@ padding: 10px;
 
 
 
+/* #container-box2 div{
+ 
+  
+  
+  justify-content: center;
+  width:400px;
+  height: 90px;
+   
+ 
+  border: 1px solid transparent;
+  border-radius: 5px;
+  
+   box-shadow: 2px 5px 14px 1px rgb(216, 215, 215);
+
+   background-color: #f8f9fa;
+
+  
+  
+}  */
+
 
 #callno{
   display: flex;
