@@ -88,6 +88,17 @@ body{
 
  }
 
+
+ #loginpass{
+
+    border: 1px solid transparent;
+    border-width:3px ;
+    
+    border-radius: 6%;
+    background-color:transparent ;
+
+ }
+
  /* #loginpass{
 
     border: 10px solid transparent;

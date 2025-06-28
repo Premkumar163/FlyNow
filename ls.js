@@ -135,10 +135,6 @@ let val=() => {
      return false
 }
 
-
-
-
-
 // let login = () => {
 
 //   let loginame = document.querySelector("#loginame").value;
@@ -178,4 +174,10 @@ let login = () => {
     return false;
   }
 }
+
+
+
+
+
+
 
