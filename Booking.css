@@ -1,0 +1,78 @@
+#BookingS{
+  padding-top: 10%;
+}
+
+
+  .flight-booking-section {
+    /* max-width: 800px; */
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#e2e2e6;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .flight-booking-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    flex: 1;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .form-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-flights-btn {
+    
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .search-flights-btn:hover {
+    background-color: #0052a3;
+    width: 50%;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .form-row {
+      flex-direction: column;
+    }
+  }

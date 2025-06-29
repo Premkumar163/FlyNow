@@ -1,40 +1,37 @@
 {
-
-    "Flynow":[
-
-        {
-            "TripType":"Sachin",
-            "Passengers":"1",
-            "Cabin Class":"economy",
-            "From":"Bhopal",
-            "To":"Delhi",
-            "Departure Date":"2025-06-26",
-            "Return Date":"2025-06-26",
-            "Total":"1000"
-        },
-        {
-            "TripType":"Sachin",
-            "Passengers":"1",
-            "Cabin Class":"economy",
-            "From":"Bhopal",
-            "To":"Delhi",
-            "Departure Date":"2025-06-26",
-            "Return Date":"2025-06-26",
-            "Total":"1000"
-        },
-        {
-            "TripType":"Sachin",
-            "Passengers":"1",
-            "Cabin Class":"economy",
-            "From":"Bhopal",
-            "To":"Delhi",
-            "Departure Date":"2025-06-26",
-            "Return Date":"2025-06-26",
-            "Total":"1000"
-        }
-    ]
-
-
-
-
+  "Flynow": [
+    {
+      "TripType": "One Way",
+      "Passengers": "1",
+      "CabinClass": "economy",
+      "From": "Bhopal",
+      "To": "Delhi",
+      "DepartureDate": "2025-06-26",
+      "ReturnDate": "2025-06-26",
+      "Total": "1000",
+      "id": "7164"
+    },
+    {
+      "TripType": "Two way",
+      "Passengers": "2",
+      "CabinClass": "economy",
+      "From": "Bhopal",
+      "To": "Delhi",
+      "DepartureDate": "2025-06-26",
+      "ReturnDate": "2025-06-26",
+      "Total": "1000",
+      "id": "f6ea"
+    },
+    {
+      "TripType": "Two way",
+      "Passengers": "2",
+      "CabinClass": "economy",
+      "From": "Bhopal",
+      "To": "Delhi",
+      "DepartureDate": "2025-06-26",
+      "ReturnDate": "2025-06-26",
+      "Total": "1000",
+      "id": "f6ea"
+    }
+  ]
 }

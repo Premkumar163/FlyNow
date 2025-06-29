@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Booking.css">
+</head>
+<body>
+
+    <section >
+<div id="BookingS">
+
+  <div class="flight-booking-section">
+    <h2>Book Your Flight</h2>
+    <form id="flightSearchForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="tripType">Trip Type</label>
+          <select id="tripType" name="tripType">
+            <option value="roundtrip">Round Trip</option>
+            <option value="oneway">One Way</option>
+            <option value="multi">Multi-City</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="passengers">Passengers</label>
+          <select id="passengers" name="passengers">
+            <option value="1">1 Adult</option>
+            <option value="2">2 Adults</option>
+            <option value="3">3 Adults</option>
+            <option value="4">4 Adults</option>
+            <option value="family">Family (2 Adults + 2 Children)</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="cabinClass">Cabin Class</label>
+          <select id="cabinClass" name="cabinClass">
+            <option value="economy">Economy</option>
+            <option value="premium">Premium Economy</option>
+            <option value="business">Business</option>
+            <option value="first">First Class</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="form-row">
+        <div class="form-group">
+          <label for="departureAirport">From</label>
+          <input type="text" id="departureAirport" name="departureAirport" placeholder="City or Airport">
+        </div>
+        
+        <div class="form-group">
+          <label for="arrivalAirport">To</label>
+          <input type="text" id="arrivalAirport" name="arrivalAirport" placeholder="City or Airport">
+        </div>
+      </div>
+      
+      <div class="form-row">
+        <div class="form-group">
+          <label for="departureDate">Departure Date</label>
+          <input type="date" id="departureDate" name="departureDate">
+        </div>
+        
+        <div class="form-group return-date-group">
+          <label for="returnDate">Return Date</label>
+          <input type="date" id="returnDate" name="returnDate">
+        </div>
+      </div>
+      
+      <div class="form-row">
+        <button type="submit" class="search-flights-btn">Search Flights</button>
+      </div>
+    </form>
+  </div>
+  
+ 
+ 
+
+</div>
+</section>
+    
+</body>
+</html>
