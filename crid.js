@@ -33,21 +33,10 @@ data.map((e)=>{
     <td>${e.Total}</td>
     <td onclick="Del('${e.id}')"> Delete </td>
     
-    </tr>
- 
- `
- 
+    </tr>`
+ })
 
-})
-
- 
-
-
-}
-
-
-
-
+ }
 
 let Del=(id)=>{
 

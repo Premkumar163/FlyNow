@@ -1,6 +1,112 @@
-#BookingS{
-  padding-top: 10%;
+#main{
+
+  margin-top: 5%;
 }
+
+#BookingS{
+  padding-top: 8%;
+}
+
+
+.headpart{
+    height: 100px;
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    /* position: fixed; */
+    /* text-align: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+     */
+   
+}
+
+/* .headpart img  {
+   align-self: baseline;
+    width: 230px;
+    height: 90px;
+   
+
+} */
+
+
+.headpart ul{
+    display: flex;
+    list-style: none;
+   font-size: 40px;
+   font-weight: 700;
+   padding-right: 90px;
+  
+    
+}
+
+.headpart  ul li{
+   padding: 0px 30px; 
+    position: relative;
+    
+}
+
+
+
+
+.headpart  a {
+    text-decoration: none;
+    
+    color: #0d0d0b;
+    font-size:16px ;
+    transition: all 0.3sec;
+    
+    
+    }
+    
+
+    .joinclass a{
+
+        /* color: aliceblue; */
+           
+        display: flex;
+        /* align-items: end;
+        justify-content: space-between; */
+         
+        /* height: 40px;
+        width: 120px; */
+        
+        /* margin-right: 170px; */
+        font-size: 25px;
+        font-weight: 700;
+       color: #000;
+    }
+
+    /* .headpart a:hover{
+        color: aqua;
+        transition: all 0.5 ease;
+    } */
+
+    .headpart a:hover,
+a:focus {
+ 
+  color: #f8f5f5;
+  transform: scale(1.1);
+  transition: all 0.5 ease;
+  box-shadow: 1px 2px 3px silver;
+}
+
+   
+    
+ 
+    
+    #img0{
+        padding-top: 15px;
+        padding-left: 30px;
+        width: 160px;
+        height: 260px;
+    }
+
 
 
   .flight-booking-section {

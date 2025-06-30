@@ -47,3 +47,10 @@ th, td {
 tr:nth-child(even) {
   background-color: #D6EEEE;
 }
+
+#dele{
+ background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+  
+}
