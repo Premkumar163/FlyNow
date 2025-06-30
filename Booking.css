@@ -1,3 +1,5 @@
+
+
 #main{
 
   margin-top: 5%;
@@ -105,6 +107,19 @@ a:focus {
         padding-left: 30px;
         width: 160px;
         height: 260px;
+    }
+
+
+    #img1{
+        padding-top: 15px;
+        padding-left: 30px;
+        width: 360px;
+        height: 260px;
+    }
+
+    #ull{
+
+      margin-left: 15%;
     }
 
 
