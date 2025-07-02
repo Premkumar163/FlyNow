@@ -12,26 +12,15 @@
       "id": "7164"
     },
     {
-      "TripType": "Two way",
-      "Passengers": "2",
+      "id": "93a6",
+      "TripType": "roundtrip",
+      "Passengers": "1",
       "CabinClass": "economy",
-      "From": "Bhopal",
-      "To": "Delhi",
-      "DepartureDate": "2025-06-26",
-      "ReturnDate": "2025-06-26",
-      "Total": "1000",
-      "id": "f6ea"
-    },
-    {
-      "TripType": "Two way",
-      "Passengers": "2",
-      "CabinClass": "economy",
-      "From": "Bhopal",
-      "To": "Delhi",
-      "DepartureDate": "2025-06-26",
-      "ReturnDate": "2025-06-26",
-      "Total": "1000",
-      "id": "f6ea"
+      "From": "delhi",
+      "To": "goa",
+      "DepartureDate": "2025-08-02",
+      "ReturnDate": "2025-07-24",
+      "price": 1000
     }
   ]
 }
