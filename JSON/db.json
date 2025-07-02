@@ -1,17 +1,6 @@
 {
   "Flynow": [
     {
-      "TripType": "One Way",
-      "Passengers": "1",
-      "CabinClass": "economy",
-      "From": "Bhopal",
-      "To": "Delhi",
-      "DepartureDate": "2025-06-26",
-      "ReturnDate": "2025-06-26",
-      "Total": "1000",
-      "id": "7164"
-    },
-    {
       "id": "93a6",
       "TripType": "roundtrip",
       "Passengers": "1",
@@ -20,6 +9,17 @@
       "To": "goa",
       "DepartureDate": "2025-08-02",
       "ReturnDate": "2025-07-24",
+      "price": 1000
+    },
+    {
+      "id": "eb5a",
+      "TripType": "roundtrip",
+      "Passengers": "4",
+      "CabinClass": "economy",
+      "From": "vidisha",
+      "To": "goa",
+      "DepartureDate": "2025-08-02",
+      "ReturnDate": "2025-07-19",
       "price": 1000
     }
   ]

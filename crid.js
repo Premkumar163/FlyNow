@@ -30,8 +30,9 @@ data.map((e)=>{
     <td>${e.To}</td>
     <td>${e.DepartureDate}</td>
     <td>${e.ReturnDate}</td>
-    <td>${e.Total}</td>
+    <td>${e.Passengers * e.price }</td>
     <td onclick="Del('${e.id}')"> Delete </td>
+    <td onclick="upd('${e.id}')"> Update </td>
     
     </tr>`
  })
@@ -46,3 +47,65 @@ let Del=(id)=>{
 }
 
 fetchdata()
+
+
+let Ins=()=>{
+
+  let tt=document.querySelector("#tripType").value
+  let p=document.querySelector("#passengers").value
+  let c=document.querySelector("#cabinClass").value
+  let f=document.querySelector("#departureAirport").value
+  let to=document.querySelector("#arrivalAirport").value
+  let DD=document.querySelector("#departureDate").value
+  let RD=document.querySelector("#returnDate").value
+ 
+  
+  let url='http://localhost:3000/Flynow'
+
+  fetch(url , {
+
+    method:"POST" ,
+    headers:{
+
+      "Content-type":"application/json"
+    },
+    body: JSON.stringify( {
+
+      TripType:tt,
+      Passengers:p,
+      CabinClass:c,
+      From:f,
+      To:to,
+      DepartureDate:DD,
+      ReturnDate:RD,
+      price:1000
+
+
+
+
+
+
+
+    })
+
+
+  })
+
+  location,href="booking.html"
+  return false
+
+
+}
+
+let upd=async(id)=>{
+
+   let url='http://localhost:3000/Flynow'
+
+  
+  
+ let res= await (url,{method:"GET"})
+
+ let data = await res.json()
+
+
+}

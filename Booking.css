@@ -1,8 +1,19 @@
 
+*{
+   padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 
+body{
+ background-color: #b2ddf1;
+ 
+
+}
 #main{
 
   margin-top: 5%;
+ 
 }
 
 #BookingS{
