@@ -12,15 +12,15 @@
       "price": 1000
     },
     {
-      "id": "eb5a",
-      "TripType": "roundtrip",
-      "Passengers": "4",
-      "CabinClass": "economy",
-      "From": "vidisha",
-      "To": "goa",
-      "DepartureDate": "2025-08-02",
-      "ReturnDate": "2025-07-19",
-      "price": 1000
+      "TripType": "oneway",
+      "Passengers": "2",
+      "CabinClass": "premium",
+      "From": "bokar",
+      "To": "go",
+      "DepartureDate": "2025-07-20",
+      "ReturnDate": "2025-08-21",
+      "price": 1000,
+      "id": "7c2e"
     }
   ]
 }
