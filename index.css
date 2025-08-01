@@ -65,7 +65,7 @@ html,body{
 
      */
    
-/* }
+}
  .headpart img  {
    align-self: baseline;
     width: 230px;
@@ -73,7 +73,7 @@ html,body{
    
 
 }
- */
+
 
 .headpart ul{
     display: flex;
