@@ -67,7 +67,7 @@ html,body{
 
 }
 
-/* 
+
 .headpart ul{
     display: flex;
     list-style: none;
@@ -76,7 +76,7 @@ html,body{
    padding-right: 90px;
   
     
-} */
+}
 
 .headpart  ul li{
    padding: 0px 30px; 
